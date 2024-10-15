@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Festivals of India</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your custom CSS file -->
+    <style >
+    	body {
+		    font-family: Arial, sans-serif;
+		    margin: 0;
+			background-image: url('https://tse3.mm.bing.net/th?id=OIP.NSR8vvQz97JZTn1rYjpQqQHaFj&pid=Api&P=0&h=180'); /* Replace with your image */
+    		background-size: cover;
+		    color: #222;
+		}
+
+header {
+    background: linear-gradient(135deg, #ff5f6d, #ffc371); /* Gradient background for the header */
+    padding: 20px; /* Padding around the header */
+}
+
+h1, h2 {
+    color: #4a4a4a; /* Darker color for headings */
+}
+
+p {
+    color: #555; /* Medium gray color for paragraphs */
+}
+
+.container {
+    margin-top: 20px; /* Space above the main container */
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.lifestyle {
+    display: flex;
+    width: 90%;
+    max-width: 800px;
+    margin: 20px 0;
+    border-radius: 10px;
+    background: #333;
+}
+
+.image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    max-height: 300px; /* Adjust as needed */
+    border-radius: 10px;
+}
+
+.details {
+    flex: 1;
+    padding: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.7);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+    	.card-btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .card-btn:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <header class="bg-warning text-white text-center py-4">
+        <h1>Festivals of India</h1>
+        <p>Experience the joy and cultural significance of India's numerous festivals.</p>
+    </header>
+<button onclick="window.location.href='/explore-content.html'" class="card-btn">Back</button>
+    <main class="container mt-4">
+        <section>
+            <h2>Major Festivals</h2>
+            <p>India is a land of festivals, celebrated with great enthusiasm and devotion. Here are some of the most prominent festivals:</p>
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <h4>Diwali</h4>
+                    <p>The festival of lights, symbolizing the victory of light over darkness. Celebrated by lighting oil lamps, bursting crackers, and exchanging sweets.</p>
+                </li>
+                <li class="list-group-item">
+                    <h4>Holi</h4>
+                    <p>The festival of colors, celebrating the arrival of spring. People throw colored powders, dance, and celebrate with family and friends.</p>
+                </li>
+                <li class="list-group-item">
+                    <h4>Eid</h4>
+                    <p>A significant festival in the Islamic calendar, marking the end of Ramadan. Celebrated with prayers, feasting, and charity.</p>
+                </li>
+                <li class="list-group-item">
+                    <h4>Christmas</h4>
+                    <p>Celebrated by Christians across India, marking the birth of Jesus Christ with feasts, prayers, and decorations.</p>
+                </li>
+                <li class="list-group-item">
+                    <h4>Pongal</h4>
+                    <p>A harvest festival celebrated mainly in Tamil Nadu, involving cooking a special dish and thanking the Sun God.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Regional Festivals</h2>
+            <p>Various states in India have their unique festivals that reflect local customs and traditions. Here are a few examples:</p>
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <h4>Durga Puja</h4>
+                    <p>Celebrated primarily in West Bengal, this festival honors the goddess Durga and features elaborate decorations and cultural performances.</p>
+                </li>
+                <li class="list-group-item">
+                    <h4>Navratri</h4>
+                    <p>A nine-night festival dedicated to the worship of the goddess Durga, celebrated with dance, music, and fasting.</p>
+                </li>
+                <li class="list-group-item">
+                    <h4>Onam</h4>
+                    <p>A harvest festival celebrated in Kerala, marked by traditional dances, floral decorations, and a grand feast known as Onam Sadya.</p>
+                </li>
+                <li class="list-group-item">
+                    <h4>Ganesh Chaturthi</h4>
+                    <p>Celebrated in honor of Lord Ganesha, this festival involves the installation of Ganesha idols and various cultural activities.</p>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Explore India. All rights reserved.</p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
